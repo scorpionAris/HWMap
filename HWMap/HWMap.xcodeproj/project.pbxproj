@@ -11,10 +11,10 @@
 		CF1AB26E1DD6D74C00090532 /* LocationUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = CF1AB26B1DD6D74C00090532 /* LocationUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF1AB26F1DD6D74C00090532 /* NavCommonUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = CF1AB26C1DD6D74C00090532 /* NavCommonUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF1AB2701DD6D74C00090532 /* NavIndoorMapViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CF1AB26D1DD6D74C00090532 /* NavIndoorMapViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF1AB2731DD6D77E00090532 /* libIndoorMapLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1AB2721DD6D77E00090532 /* libIndoorMapLib.a */; };
 		CF1AB2761DD6DE4000090532 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1AB2751DD6DE4000090532 /* GLKit.framework */; };
 		CF1AB2781DD6DE5300090532 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1AB2771DD6DE5300090532 /* libz.tbd */; };
 		CF1AB27B1DD6DF8E00090532 /* navmap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CF1AB27A1DD6DF8E00090532 /* navmap.bundle */; };
+		CFB7D0D91DD702B1005FAE6E /* libIndoorMapLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB7D0D81DD702B1005FAE6E /* libIndoorMapLib.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,10 +24,10 @@
 		CF1AB26B1DD6D74C00090532 /* LocationUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationUtil.h; sourceTree = "<group>"; };
 		CF1AB26C1DD6D74C00090532 /* NavCommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavCommonUtil.h; sourceTree = "<group>"; };
 		CF1AB26D1DD6D74C00090532 /* NavIndoorMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavIndoorMapViewController.h; sourceTree = "<group>"; };
-		CF1AB2721DD6D77E00090532 /* libIndoorMapLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libIndoorMapLib.a; path = "../../../../../../../../Library/Developer/Xcode/DerivedData/HWMap-cvsxkwsyqpmurvfupgzfbyheqppc/Build/Products/Debug-iphonesimulator/libIndoorMapLib.a"; sourceTree = "<group>"; };
 		CF1AB2751DD6DE4000090532 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		CF1AB2771DD6DE5300090532 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		CF1AB27A1DD6DF8E00090532 /* navmap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = navmap.bundle; sourceTree = "<group>"; };
+		CFB7D0D81DD702B1005FAE6E /* libIndoorMapLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libIndoorMapLib.a; path = HWMap/MapLib/libs/libIndoorMapLib.a; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,9 +35,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFB7D0D91DD702B1005FAE6E /* libIndoorMapLib.a in Frameworks */,
 				CF1AB2781DD6DE5300090532 /* libz.tbd in Frameworks */,
 				CF1AB2761DD6DE4000090532 /* GLKit.framework in Frameworks */,
-				CF1AB2731DD6D77E00090532 /* libIndoorMapLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,8 +74,8 @@
 		CF1AB2691DD6D6C900090532 /* MapLib */ = {
 			isa = PBXGroup;
 			children = (
+				CFB7D0C71DD70258005FAE6E /* libs */,
 				CF1AB2791DD6DF3600090532 /* Resource */,
-				CF1AB2711DD6D76800090532 /* lib */,
 				CF1AB26A1DD6D6EB00090532 /* include */,
 			);
 			path = MapLib;
@@ -89,14 +89,6 @@
 				CF1AB26D1DD6D74C00090532 /* NavIndoorMapViewController.h */,
 			);
 			path = include;
-			sourceTree = "<group>";
-		};
-		CF1AB2711DD6D76800090532 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				CF1AB2721DD6D77E00090532 /* libIndoorMapLib.a */,
-			);
-			path = lib;
 			sourceTree = "<group>";
 		};
 		CF1AB2741DD6D7DD00090532 /* Frameworks */ = {
@@ -114,6 +106,14 @@
 				CF1AB27A1DD6DF8E00090532 /* navmap.bundle */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		CFB7D0C71DD70258005FAE6E /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				CFB7D0D81DD702B1005FAE6E /* libIndoorMapLib.a */,
+			);
+			path = libs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,6 +309,10 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HWMap/MapLib/libs",
+				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.huawei.HWMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -329,6 +333,10 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HWMap/MapLib/libs",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.huawei.HWMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -354,6 +362,7 @@
 				CF1AB2661DD6D48D00090532 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

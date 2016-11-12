@@ -1,0 +1,577 @@
+<Type>
+<SpecificType>
+	<BuildingType id="199999" name="超市">
+		<ClassType id="1" name="食品饮料">			
+			<ClassType id="100" name="饮料">
+						<ClassType id="1000" name="软性饮料"/>
+						<ClassType id="1001" name="茶/咖啡饮品"/>
+						<ClassType id="1002" name="蔬果汁"/>
+			</ClassType>
+			
+			<ClassType id="101" name="烟酒">
+						<ClassType id="1010" name="白酒/滋补酒"/>
+						<ClassType id="1011" name="黄酒/米酒/其它酒"/>
+						<ClassType id="1012" name="国产葡萄酒/果酒"/>
+						<ClassType id="1013" name="啤酒"/>
+						<ClassType id="1014" name="进口葡萄酒/果酒"/>
+						<ClassType id="1015" name="洋酒"/>
+						<ClassType id="1016" name="香烟/雪茄"/>
+			</ClassType>
+			
+				<ClassType id="102" name="休闲食品">
+						<ClassType id="1020" name="糖果巧克力"/>
+						<ClassType id="1021" name="饼干点心"/>
+						<ClassType id="1022" name="蜜饯/炒货/零食类"/>
+						<ClassType id="1023" name="散装休闲食品"/>
+			</ClassType>
+			
+
+			<ClassType id="103" name="冲饮保健">
+						<ClassType id="1030" name="奶粉"/>
+						<ClassType id="1031" name="冲饮食品"/>
+						<ClassType id="1032" name="保健食品"/>						
+			</ClassType>
+			
+				<ClassType id="104" name="粮油食杂">
+						<ClassType id="1040" name="速食米面"/>
+						<ClassType id="1041" name="粮油"/>
+						<ClassType id="1042" name="调味品"/>
+						<ClassType id="1043" name="罐头食品"/>
+			</ClassType>
+			
+		</ClassType>
+		
+		<ClassType id="2" name="洗化">			
+			<ClassType id="200" name="居家清洁">
+						<ClassType id="2000" name="清洁剂"/>
+						<ClassType id="2001" name="洗涤剂"/>
+						<ClassType id="2002" name="杀虫用品"/>
+						<ClassType id="2003" name="纸类用品"/>
+			</ClassType>
+			
+			<ClassType id="201" name="个人洗护">
+						<ClassType id="2010" name="美容用品"/>
+						<ClassType id="2011" name="保养护理用品"/>
+						<ClassType id="2012" name="洗浴用品"/>
+						<ClassType id="2013" name="洗护整染发用品"/>
+						<ClassType id="2014" name="口腔用品"/>
+						<ClassType id="2015" name="男士清洁护理用品"/>
+						<ClassType id="2016" name="婴童清洁护理用品"/>
+			</ClassType>
+			
+			
+		</ClassType>
+		
+			<ClassType id="3" name="家百">			
+						
+				<ClassType id="300" name="文化用品">
+						<ClassType id="3000" name="音像制品"/>
+						<ClassType id="3001" name="图书/杂志"/>
+						<ClassType id="3002" name="文具"/>
+						<ClassType id="3003" name="办公文具"/>
+						<ClassType id="3004" name="礼品/装饰品/相册"/>
+			</ClassType>
+			
+
+			<ClassType id="301" name="休闲百货">
+						<ClassType id="3010" name="灯具及配件"/>
+						<ClassType id="3011" name="电池及配件"/>
+						<ClassType id="3012" name="球类"/>		
+						<ClassType id="3013" name="运动健身用品"/>
+						<ClassType id="3014" name="野营用品"/>
+						<ClassType id="3015" name="年节装饰品"/>
+						<ClassType id="3016" name="箱包"/>
+						<ClassType id="3017" name="园艺用品"/>
+						<ClassType id="3018" name="宠物商品"/>				
+			</ClassType>
+			
+			<ClassType id="302" name="婴童百货">
+						<ClassType id="3020" name="玩具"/>
+						<ClassType id="3021" name="婴幼儿用品"/>
+						<ClassType id="3022" name="婴幼儿服装(0-3岁)"/>				
+			</ClassType>
+			
+			<ClassType id="303" name="厨房用品">
+						<ClassType id="3030" name="陶瓷器皿"/>
+						<ClassType id="3031" name="密胺/塑料器皿"/>
+						<ClassType id="3032" name="玻璃器皿"/>		
+						<ClassType id="3033" name="保温器皿"/>
+						<ClassType id="3034" name="锅具"/>
+						<ClassType id="3035" name="杯类"/>
+						<ClassType id="3036" name="茶具/咖啡用具"/>
+						<ClassType id="3037" name="厨房配件"/>
+						<ClassType id="3038" name="餐桌配件"/>			
+						<ClassType id="3039" name="一次性用品"/>				
+			</ClassType>
+			
+			<ClassType id="304" name="居家杂件">
+						<ClassType id="3040" name="钟表器材"/>
+						<ClassType id="3041" name="家具"/>
+						<ClassType id="3042" name="家居装饰"/>		
+						<ClassType id="3043" name="卫浴用品"/>
+						<ClassType id="3044" name="家庭清洁用品"/>
+						<ClassType id="3045" name="衣服整理用品"/>
+						<ClassType id="3046" name="家庭收纳用品"/>
+						<ClassType id="3047" name="雨具"/>			
+			</ClassType>
+			
+			<ClassType id="305" name="车用五金">
+						<ClassType id="3050" name="汽车用品"/>
+						<ClassType id="3051" name="自行车/电动车"/>
+						<ClassType id="3052" name="家用五金"/>		
+						<ClassType id="3053" name="电料及配件"/>	
+			</ClassType>
+			
+		</ClassType>
+		
+		
+		<ClassType id="4" name="家电">			
+						
+				<ClassType id="400" name="3C家电">
+						<ClassType id="4000" name="影音电子"/>
+						<ClassType id="4001" name="电脑"/>
+						<ClassType id="4002" name="摄像器材"/>
+						<ClassType id="4003" name="通讯设备"/>
+						<ClassType id="4004" name="办公事务机器"/>
+			</ClassType>
+			
+
+			<ClassType id="401" name="小家电">
+						<ClassType id="4010" name="厨房电器"/>
+						<ClassType id="4011" name="个人护理电器"/>
+						<ClassType id="4012" name="家用电器"/>		
+						<ClassType id="4013" name="季节产品"/>			
+			</ClassType>
+			
+			<ClassType id="402" name="大家电">
+						<ClassType id="4020" name="黑色大家电"/>
+						<ClassType id="4021" name="白色大家电"/>		
+			</ClassType>	
+		</ClassType>
+		
+		<ClassType id="5" name="纺织">			
+						
+				<ClassType id="500" name="个人纺织">
+						<ClassType id="5000" name="内衣"/>
+						<ClassType id="5001" name="家居服"/>
+						<ClassType id="5002" name="毛巾"/>
+						<ClassType id="5003" name="袜子"/>
+			</ClassType>
+			
+
+			<ClassType id="501" name="居家家纺">
+						<ClassType id="5010" name="床上用品"/>
+						<ClassType id="5011" name="家庭纺织用品"/>	
+			</ClassType>
+			
+			<ClassType id="502" name="服饰及配件">
+						<ClassType id="5020" name="男式服装"/>
+						<ClassType id="5021" name="女式服装"/>		
+						<ClassType id="5022" name="童装"/>
+						<ClassType id="5023" name="鞋类"/>		
+						<ClassType id="5024" name="服饰配件"/>
+			</ClassType>	
+		</ClassType>
+		
+		
+		<ClassType id="6" name="生鲜">			
+						
+				<ClassType id="600" name="南北货">
+						<ClassType id="6000" name="包装南北货"/>
+						<ClassType id="6001" name="散装南北货"/>
+						<ClassType id="6002" name="南北货原料及耗材"/>
+			</ClassType>
+			
+
+			<ClassType id="601" name="日配">
+						<ClassType id="6010" name="常温奶品"/>
+						<ClassType id="6011" name="常温日配"/>
+						<ClassType id="6012" name="蛋类"/>		
+						<ClassType id="6013" name="冷藏熟食"/>
+						<ClassType id="6014" name="冷藏奶品"/>
+						<ClassType id="6015" name="冷藏饮品"/>
+						<ClassType id="6016" name="冷藏乳制品"/>
+						<ClassType id="6017" name="冷冻食品"/>
+						<ClassType id="6018" name="冰品"/>				
+			</ClassType>
+			
+			<ClassType id="602" name="熟食">
+						<ClassType id="6020" name="冷食类"/>
+						<ClassType id="6021" name="热食类"/>
+						<ClassType id="6022" name="熟食原辅料及耗材"/>				
+			</ClassType>
+			
+			<ClassType id="603" name="水产">
+						<ClassType id="6030" name="鲜活水产品"/>
+						<ClassType id="6031" name="冰鲜水产品"/>
+						<ClassType id="6032" name="冷冻水产品"/>		
+						<ClassType id="6033" name="水产干货"/>
+						<ClassType id="6034" name="水产加工类"/>			
+			</ClassType>
+			
+			<ClassType id="604" name="肉品">
+						<ClassType id="6040" name="家畜类"/>
+						<ClassType id="6041" name="家禽类"/>
+						<ClassType id="6042" name="肉类加工类"/>			
+			</ClassType>
+			
+			<ClassType id="605" name="蔬菜">
+						<ClassType id="6050" name="叶菜类"/>
+						<ClassType id="6051" name="茄果类"/>
+						<ClassType id="6052" name="根块类"/>		
+						<ClassType id="6053" name="菌菇类"/>	
+						<ClassType id="6054" name="概念蔬菜"/>	
+						<ClassType id="6055" name="蔬菜加工类"/>	
+			</ClassType>
+			
+			<ClassType id="606" name="水果">
+						<ClassType id="6060" name="鲜果类"/>
+						<ClassType id="6061" name="水果加工类"/>		
+			</ClassType>
+			
+			
+			<ClassType id="607" name="蔬菜">
+						<ClassType id="6070" name="面包类"/>
+						<ClassType id="6071" name="西式主食"/>
+						<ClassType id="6072" name="糕点"/>		
+						<ClassType id="6073" name="蛋糕"/>	
+						<ClassType id="6074" name="烘焙类原辅料及耗材"/>	
+			</ClassType>
+			
+			<ClassType id="608" name="面点">
+						<ClassType id="6080" name="面复制品"/>
+						<ClassType id="6081" name="即食点心"/>
+						<ClassType id="6082" name="面点原辅料及耗材"/>			
+			</ClassType>
+			
+		</ClassType>
+		
+		<ClassType id="9001" name="促销区"/>
+		<ClassType id="9002" name="试衣间"/>
+		<ClassType id="9003" name="服务台"/>
+		<ClassType id="9004" name="收银区"/>
+		<ClassType id="9005" name="自助收银区"/>
+		<ClassType id="9006" name="自助提货柜"/>
+		<ClassType id="9007" name="推车处"/>
+		<ClassType id="9008" name="存包处"/>
+		<ClassType id="9009" name="无购物通道"/>
+			
+	</BuildingType>
+	
+	<BuildingType id="300000" name="家居">
+		<ClassType id="300100" name="套房"/>
+		<ClassType id="300200" name="橱柜"/>
+		<ClassType id="300300" name="床"/>
+		<ClassType id="300400" name="沙发"/>
+		<ClassType id="300500" name="窗帘布艺"/>
+		<ClassType id="300600" name="灯具"/>
+		<ClassType id="300700" name="家电"/>
+		<ClassType id="300800" name="洁具"/>
+		<ClassType id="300900" name="瓷砖"/>
+		<ClassType id="301000" name="石材"/>
+		<ClassType id="301100" name="水族"/>
+		<ClassType id="301200" name="板式家具"/>
+		<ClassType id="301300" name="藤器家具"/>
+		<ClassType id="301400" name="实木家具"/>
+		<ClassType id="301500" name="欧美家具"/>
+		<ClassType id="301600" name="红木家具"/>
+		<ClassType id="301700" name="儿童家具"/>
+		<ClassType id="301800" name="鞋柜"/>
+		<ClassType id="301900" name="窗户"/>
+		<ClassType id="302000" name="木门"/>
+		<ClassType id="302100" name="工艺画、油画"/>
+		<ClassType id="302200" name="壁纸"/>
+		<ClassType id="302300" name="壁柜门"/>
+		<ClassType id="302400" name="玻璃"/>
+		<ClassType id="302500" name="安全门"/>
+		<ClassType id="302600" name="中央空调"/>
+		<ClassType id="302700" name="地板"/>
+		<ClassType id="302800" name="楼梯"/>
+		<ClassType id="302900" name="吊顶"/>
+		<ClassType id="303000" name="家装设计"/>
+		<ClassType id="303100" name="建材超市"/>
+		<ClassType id="303200" name="钟表"/>
+		<ClassType id="303300" name="榻榻米"/>
+		<ClassType id="303400" name="采暖"/>
+	</BuildingType>
+	
+		<BuildingType id="600000" name="办公区">
+		<ClassType id="600101" name="经理室"/>
+	  <ClassType id="600201" name="封闭办公室"/>
+		<ClassType id="600300" name="开放办公区"/>
+	
+		<ClassType id="600401" name="其他办公区"/>
+		<ClassType id="600501" name="生产区"/>
+		<ClassType id="600600" name="食堂">
+			  <ClassType id="600601" name="商务区"/>
+				<ClassType id="600602" name="员工餐厅"/>
+				<ClassType id="600603" name="咖啡厅"/>
+				 <ClassType id="600604" name="就餐区"/>
+				<ClassType id="600605" name="洗碗间"/>
+				<ClassType id="600606" name="加工区"/>
+				 <ClassType id="600607" name="食堂公共配套区域"/>
+				<ClassType id="600608" name="售卖区"/>
+				<ClassType id="600609" name="便利店"/>
+			</ClassType>		
+			<ClassType id="600701" name="机要室"/>
+			<ClassType id="600801" name="数据中心"/>
+			<ClassType id="600901" name="文档室"/>
+			<ClassType id="601000" name="实验室">
+				<ClassType id="601001" name="人机隔离实验室设备间"/>
+				<ClassType id="601002" name="体验中心"/>
+				<ClassType id="601003" name="近端操作实验室"/>
+				<ClassType id="601004" name="人机隔离实验室操作间"/>
+				<ClassType id="601005" name="专业实验室"/>
+				<ClassType id="601006" name="焊接室"/>
+			</ClassType>
+			<ClassType id="601100" name="专用会议室">
+			  <ClassType id="601101" name="高密会议室"/>
+				<ClassType id="601102" name="普通会议室"/>
+				<ClassType id="601103" name="开发会议区"/>
+				  <ClassType id="601104" name="智真会议室"/>
+				<ClassType id="601105" name="电视电话会议室"/>
+			</ClassType>		
+			<ClassType id="601200" name="公共会议室">
+			  <ClassType id="601201" name="公共高密会议室"/>
+				<ClassType id="601202" name="公共普通会议室"/>
+				<ClassType id="601203" name="开放会议区"/>
+				  <ClassType id="601204" name="公共智真会议室"/>
+				<ClassType id="601205" name="公共电视电话会议室"/>
+			</ClassType>		
+			<ClassType id="601300" name="公共培训教室">
+			  <ClassType id="601301" name="电化教室"/>
+				<ClassType id="601302" name="普通教室"/>
+				<ClassType id="601303" name="阶梯教室"/>
+			</ClassType>	
+			<ClassType id="601400" name="专用培训教室">
+			  <ClassType id="601401" name="电化教室"/>
+				<ClassType id="601402" name="普通教室"/>
+				<ClassType id="601403" name="阶梯教室"/>
+			</ClassType>	
+			<ClassType id="601500" name="外部基础设施">
+			  <ClassType id="601501" name="室外能源用房"/>
+				<ClassType id="601502" name="室外安全用房"/>
+			</ClassType>
+			<ClassType id="601601" name="停车场"/>				
+			<ClassType id="601700" name="公共基础设施">
+			  <ClassType id="601701" name="空调设备用房"/>
+				<ClassType id="601702" name="中庭"/>
+				<ClassType id="601703" name="阳台"/>
+				  <ClassType id="601704" name="人防区"/>
+				<ClassType id="601705" name="网络机房"/>
+				<ClassType id="601706" name="走廊"/>
+				  <ClassType id="601707" name="供配电用房"/>
+				<ClassType id="601708" name="消防设备用房"/>
+				<ClassType id="601709" name="景点"/>
+				<ClassType id="601710" name="无障碍卫生间"/>
+				<ClassType id="601711" name="值班室/大楼"/>
+				<ClassType id="601712" name="大堂"/>
+				<ClassType id="601713" name="男卫生间"/>
+				<ClassType id="601714" name="动力设备用房"/>
+				<ClassType id="601715" name="楼梯房"/>
+				<ClassType id="601716" name="电梯厅"/>
+				<ClassType id="601717" name="女卫生间"/>
+				<ClassType id="601718" name="公共卫生间"/>
+				<ClassType id="601719" name="化妆间"/>
+				<ClassType id="601720" name="洗手池"/>
+				<ClassType id="601721" name="无障碍男卫生间"/>
+				<ClassType id="601722" name="无障碍女卫生间"/>
+				<ClassType id="601723" name="亲子卫生间"/>
+			</ClassType>	
+			<ClassType id="601800" name="公共服务配套">
+			  <ClassType id="601801" name="图书馆"/>
+				<ClassType id="601802" name="母婴室"/>
+				<ClassType id="601803" name="更衣室"/>
+				  <ClassType id="601804" name="男更衣室"/>
+				<ClassType id="601805" name="女更衣室"/>
+				<ClassType id="601806" name="清洁用房"/>
+				  <ClassType id="601807" name="文印室"/>
+				<ClassType id="601808" name="健身休闲"/>
+				<ClassType id="601809" name="其他附属用房"/>
+				<ClassType id="601810" name="投递室"/>
+				<ClassType id="601811" name="祈祷室"/>
+				<ClassType id="601812" name="物业用房"/>
+				<ClassType id="601813" name="公用库房"/>
+				<ClassType id="601814" name="垃圾房"/>
+				<ClassType id="601815" name="休息室"/>
+				<ClassType id="601816" name="守卫室"/>
+				<ClassType id="601817" name="吸烟室"/>
+				<ClassType id="601818" name="监控室"/>
+				<ClassType id="601819" name="茶水间"/>
+				<ClassType id="601820" name="修理处"/>
+			</ClassType>	
+			<ClassType id="601900" name="休闲沟通区">
+			  <ClassType id="601901" name="茶歇区"/>
+				<ClassType id="601902" name="沟通室"/>
+				<ClassType id="601903" name="洽谈区"/>
+				<ClassType id="601904" name="接待区"/>
+			</ClassType>	
+			 <ClassType id="602001" name="专用库房"/>
+			 <ClassType id="602101" name="地库公用用房"/>
+			 	 <ClassType id="602200" name="VIP区域">
+			 	 	 <ClassType id="602201" name="会所"/>
+			 	 	 <ClassType id="602202" name="展厅"/>
+			 	 	 <ClassType id="602203" name="VIP会议室"/>
+			 	 	 <ClassType id="602204" name="高级接待区"/>
+			 	 	</ClassType>
+			 	 	<ClassType id="602300" name="物流区">
+			 	 	 <ClassType id="602301" name="收发货区"/>
+			 	 	 <ClassType id="602302" name="普通仓库"/>
+			 	 	 <ClassType id="602303" name="立体仓库"/>
+			 	 	</ClassType>
+	</BuildingType>
+	
+		<BuildingType id="190000" name="家电">
+		<ClassType id="190001" name="空调"/>
+		<ClassType id="190002" name="洗衣机"/>
+		<ClassType id="190003" name="电视/影音"/>
+		<ClassType id="190004" name="冰箱/冷柜"/>
+		<ClassType id="190005" name="厨卫大电"/>
+		<ClassType id="190006" name="热水器"/>
+		<ClassType id="190007" name="健康电器"/>
+		<ClassType id="190008" name="小家电"/>
+		<ClassType id="190009" name="个人护理"/>
+		<ClassType id="190010" name="电脑/办公"/>
+		<ClassType id="190011" name="手机/配件"/>
+		<ClassType id="190012" name="相机/智能"/>
+		<ClassType id="190013" name="服务类"/>
+	</BuildingType>
+
+</SpecificType>
+
+<CommonType>
+		<ClassType id="200100" name="餐饮水吧"/>
+		<ClassType id="200200" name="休闲娱乐"/>
+		<ClassType id="200300" name="服饰鞋帽"/>
+		<ClassType id="200400" name="化妆品"/>
+		<ClassType id="200500" name="家居家装"/>
+		<ClassType id="200600" name="数码电器"/>
+		<ClassType id="200700" name="亲子"/>
+		<ClassType id="200800" name="珠宝首饰"/>
+		<ClassType id="200900" name="生活服务"/>
+		<ClassType id="999998" name="未知商铺"/>
+		<ClassType id="999999" name="其它"/>
+		<ClassType id="9997" name="通道区"/>
+		<ClassType id="9990" name="禁止区"/>
+		<ClassType id="400000" name="停车场">
+				<ClassType id="400100" name="场地"/>
+				<ClassType id="400200" name="车位">
+						<ClassType id="400201" name="小客车停车区"/>
+						<ClassType id="400202" name="公司停车位"/>
+						<ClassType id="400203" name="无障碍停车位"/>
+				</ClassType>
+				<ClassType id="400300" name="火警"/>
+				<ClassType id="400400" name="保安系统"/>
+				<ClassType id="400500" name="入口控制"/>
+				<ClassType id="400600" name="车辆控制设备"/>
+		</ClassType>		
+</CommonType>
+
+
+<POIType>
+	<GroupType id="1" name="公共卫生">
+			<ClassType id="101101" name="公共卫生间"/>
+			<ClassType id="101102" name="化妆间"/>
+			<ClassType id="101103" name="洗手池"/>
+			<ClassType id="101104" name="男卫生间"/>
+			<ClassType id="101105" name="女卫生间"/>
+			<ClassType id="101106" name="无障碍男卫生间"/>
+			<ClassType id="101107" name="无障碍女卫生间"/>
+			<ClassType id="101108" name="亲子卫生间"/>
+			<ClassType id="101109" name="无障碍公共卫生间"/>
+		</GroupType>
+		
+		<GroupType id="2" name="公告信息">
+			<ClassType id="101201" name="公告栏"/>
+			<ClassType id="101202" name="引导牌"/>
+			<ClassType id="101203" name="服务台"/>
+			<ClassType id="101204" name="优惠积分兑换处"/>
+		</GroupType>
+		
+		<GroupType id="3" name="通行">
+			<ClassType id="101301" name="直梯"/>
+			<ClassType id="101302" name="步行梯"/>
+			<ClassType id="101303" name="入口"/>
+			<ClassType id="101304" name="出口"/>
+			<ClassType id="101305" name="停车场"/>
+			<ClassType id="101306" name="出入口"/>
+			<ClassType id="101307" name="扶梯"/>
+			<ClassType id="101308" name="货梯"/>
+			<ClassType id="101309" name="无障碍电梯"/>
+			<ClassType id="101310" name="无障碍步行梯"/>
+			<ClassType id="101311" name="停车场出口"/>
+			<ClassType id="101312" name="停车场入口"/>
+			<ClassType id="101313" name="停车场出入口"/>
+			<ClassType id="101314" name="停车场联通路出口"/>
+			<ClassType id="101315" name="停车场联通路入口"/>
+			<ClassType id="101316" name="停车场联通路出入口"/>
+			<ClassType id="101317" name="水平电梯"/>
+		</GroupType>
+		
+		<GroupType id="4" name="金融服务">
+			<ClassType id="101401" name="自助取款机"/>
+			<ClassType id="101402" name="自动售货机"/>
+			<ClassType id="101403" name="收款台"/>
+			<ClassType id="101404" name="缴费终端"/>
+			<ClassType id="101405" name="货币兑换处"/>
+			<ClassType id="101406" name="银行"/>
+		</GroupType>
+		
+			<GroupType id="5" name="电话">
+			<ClassType id="101501" name="AOI网络服务"/>
+			<ClassType id="101502" name="急救电话"/>
+			<ClassType id="101503" name="普通电话"/>
+		</GroupType>
+		
+		<GroupType id="6" name="消防">
+			<ClassType id="101601" name="防火门"/>
+			<ClassType id="101602" name="消防栓"/>
+			<ClassType id="101603" name="灭火器"/>
+		</GroupType>
+		
+		<GroupType id="7" name="其它">
+			<ClassType id="101701" name="文印处"/>
+			<ClassType id="101702" name="休憩处"/>
+			<ClassType id="101703" name="开水间"/>
+			<ClassType id="101704" name="男更衣室"/>
+			<ClassType id="101705" name="修理处"/>
+			<ClassType id="101706" name="育婴室"/>
+			<ClassType id="101707" name="女更衣室"/>
+			<ClassType id="101708" name="吸烟室"/>
+			<ClassType id="101709" name="贵宾室"/>
+			<ClassType id="101710" name="寄存处"/>
+			<ClassType id="101711" name="医疗救护室"/>
+			<ClassType id="101712" name="更衣室"/>
+			<ClassType id="101713" name="手机加油站"/>
+			<ClassType id="101714" name="出租车停靠处"/>
+			<ClassType id="101715" name="地铁"/>
+			<ClassType id="101716" name="公交车站"/>
+		</GroupType>
+		
+		<GroupType id="8" name="轨道交通">
+			<ClassType id="101803" name="安检机"/>
+			<ClassType id="101804" name="边防检查"/>
+			<ClassType id="101805" name="检票闸机入口"/>
+			<ClassType id="101806" name="人工售票"/>
+			<ClassType id="101807" name="自动售票"/>
+			<ClassType id="101808" name="超规行李提取"/>
+			<ClassType id="101809" name="海关"/>
+			<ClassType id="101810" name="行李查询"/>
+			<ClassType id="101811" name="行李提取"/>
+			<ClassType id="101812" name="检票闸机出口"/>
+			<ClassType id="101813" name="检验检疫"/>
+			<ClassType id="101814" name="中转服务"/>
+			<ClassType id="101815" name="登机口"/>
+			<ClassType id="101816" name="值机岛"/>
+			<ClassType id="101817" name="失物招领处"/>
+			<ClassType id="101818" name="外币兑换"/>
+			<ClassType id="101819" name="托运行李处"/>
+			<ClassType id="101820" name="超规行李托运"/>
+			<ClassType id="101821" name="头等舱候机室"/>
+			<ClassType id="101822" name="旅客捷运站台"/>
+			<ClassType id="101823" name="行李打包"/>
+			<ClassType id="101824" name="进出站口"/>
+		</GroupType>
+</POIType>
+		
+</Type>

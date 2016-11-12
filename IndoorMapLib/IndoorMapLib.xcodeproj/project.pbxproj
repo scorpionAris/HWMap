@@ -33,7 +33,7 @@
 		40ACACCD1B12D4B200925E92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40ACACCC1B12D4B200925E92 /* UIKit.framework */; };
 		40ACACD01B12D4CC00925E92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40ACACCF1B12D4CC00925E92 /* Foundation.framework */; };
 		40CEFB241BF77F09007565FD /* NavFloorBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CEFB231BF77F09007565FD /* NavFloorBarView.m */; };
-		40F460271DB893C500A89280 /* libNIMapSDKLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F460261DB893C500A89280 /* libNIMapSDKLib.a */; };
+		CF1AB2681DD6D5DB00090532 /* libNIMapSDKLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1AB2671DD6D5DB00090532 /* libNIMapSDKLib.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -102,7 +102,7 @@
 		40ACACCF1B12D4CC00925E92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		40CEFB221BF77F09007565FD /* NavFloorBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavFloorBarView.h; sourceTree = "<group>"; };
 		40CEFB231BF77F09007565FD /* NavFloorBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavFloorBarView.m; sourceTree = "<group>"; };
-		40F460261DB893C500A89280 /* libNIMapSDKLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libNIMapSDKLib.a; path = lib/libNIMapSDKLib.a; sourceTree = "<group>"; };
+		CF1AB2671DD6D5DB00090532 /* libNIMapSDKLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNIMapSDKLib.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40F460271DB893C500A89280 /* libNIMapSDKLib.a in Frameworks */,
+				CF1AB2681DD6D5DB00090532 /* libNIMapSDKLib.a in Frameworks */,
 				40ACACD01B12D4CC00925E92 /* Foundation.framework in Frameworks */,
 				40ACACCD1B12D4B200925E92 /* UIKit.framework in Frameworks */,
 			);
@@ -122,7 +122,7 @@
 		40409AE71BFDBC8600989D43 /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				40F460261DB893C500A89280 /* libNIMapSDKLib.a */,
+				CF1AB2671DD6D5DB00090532 /* libNIMapSDKLib.a */,
 			);
 			path = lib;
 			sourceTree = "<group>";

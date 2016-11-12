@@ -1,0 +1,434 @@
+{
+   "backcolor" : "239,239,239,255",
+   "maxScale" : 236.3330134146831,
+   "minScale" : 5251.844903096151,
+   "poiImage" : "poi-grey.png",
+   "productauthor" : "navinfo",
+   "productversion" : "1.0.0.1",
+   "style" : [
+      {
+         "field" : "POI_TYPE",
+         "height" : 0,
+         "maxscale" : 4000,
+         "minscale" : 0,
+         "name" : "IX_POI_INFO",
+         "render" : 1,
+         "showfield" : "",
+         "showtype" : 5,
+         "style" : [
+            {
+               "iconname" : "101101.png",
+               "iconsize" : 32.0,
+               "name" : "����������",
+               "values" : "101101"
+            },
+            {
+               "iconname" : "101102.png",
+               "iconsize" : 32.0,
+               "name" : "��ױ��",
+               "values" : "101102"
+            },
+            {
+               "iconname" : "101103.png",
+               "iconsize" : 32.0,
+               "name" : "ϴ�ֳ�",
+               "values" : "101103"
+            },
+            {
+               "iconname" : "101104.png",
+               "iconsize" : 32.0,
+               "name" : "��������",
+               "values" : "101104"
+            },
+            {
+               "iconname" : "101105.png",
+               "iconsize" : 32.0,
+               "name" : "Ů������",
+               "values" : "101105"
+            },
+            {
+               "iconname" : "101106.png",
+               "iconsize" : 32.0,
+               "name" : "���ϰ���������",
+               "values" : "101106"
+            },
+            {
+               "iconname" : "101107.png",
+               "iconsize" : 32.0,
+               "name" : "���ϰ�Ů������",
+               "values" : "101107"
+            },
+            {
+               "iconname" : "101108.png",
+               "iconsize" : 32.0,
+               "name" : "����������",
+               "values" : "101108"
+            },
+            {
+               "iconname" : "101109.png",
+               "iconsize" : 32.0,
+               "name" : "���ϰ�����������",
+               "values" : "101109"
+            },
+            {
+               "iconname" : "101201.png",
+               "iconsize" : 32.0,
+               "name" : "������",
+               "values" : "101201"
+            },
+            {
+               "iconname" : "101202.png",
+               "iconsize" : 32.0,
+               "name" : "������",
+               "values" : "101202"
+            },
+            {
+               "iconname" : "101203.png",
+               "iconsize" : 32.0,
+               "name" : "����̨",
+               "values" : "101203"
+            },
+            {
+               "iconname" : "101204.png",
+               "iconsize" : 32.0,
+               "name" : "���ֶһ�",
+               "values" : "101204"
+            },
+            {
+               "iconname" : "101301.png",
+               "iconsize" : 32.0,
+               "name" : "����",
+               "values" : "101301"
+            },
+            {
+               "iconname" : "101302.png",
+               "iconsize" : 32.0,
+               "name" : "������",
+               "values" : "101302"
+            },
+            {
+               "iconname" : "101303.png",
+               "iconsize" : 32.0,
+               "name" : "���",
+               "values" : "101303"
+            },
+            {
+               "iconname" : "101304.png",
+               "iconsize" : 32.0,
+               "name" : "����",
+               "values" : "101304"
+            },
+            {
+               "iconname" : "101305.png",
+               "iconsize" : 32.0,
+               "name" : "ͣ����",
+               "values" : "101305"
+            },
+            {
+               "iconname" : "101306.png",
+               "iconsize" : 32.0,
+               "name" : "�����",
+               "values" : "101306"
+            },
+            {
+               "iconname" : "101307.png",
+               "iconsize" : 32.0,
+               "name" : "����",
+               "values" : "101307"
+            },
+            {
+               "iconname" : "101308.png",
+               "iconsize" : 32.0,
+               "name" : "����",
+               "values" : "101308"
+            },
+            {
+               "iconname" : "101309.png",
+               "iconsize" : 32.0,
+               "name" : "���ϰ�����",
+               "values" : "101309"
+            },
+            {
+               "iconname" : "101310.png",
+               "iconsize" : 32.0,
+               "name" : "���ϰ�������",
+               "values" : "101310"
+            },
+            {
+               "iconname" : "101311.png",
+               "iconsize" : 32.0,
+               "name" : "ͣ��������",
+               "values" : "101311"
+            },
+            {
+               "iconname" : "101312.png",
+               "iconsize" : 32.0,
+               "name" : "ͣ�������",
+               "values" : "101312"
+            },
+            {
+               "iconname" : "101313.png",
+               "iconsize" : 32.0,
+               "name" : "ͣ���������",
+               "values" : "101313"
+            },
+            {
+               "iconname" : "101314.png",
+               "iconsize" : 32.0,
+               "name" : "ͣ������ͨ·����",
+               "values" : "101314"
+            },
+            {
+               "iconname" : "101315.png",
+               "iconsize" : 32.0,
+               "name" : "ͣ������ͨ·���",
+               "values" : "101315"
+            },
+            {
+               "iconname" : "101316.png",
+               "iconsize" : 32.0,
+               "name" : "ͣ������ͨ·�����",
+               "values" : "101316"
+            },
+            {
+               "iconname" : "101401.png",
+               "iconsize" : 32.0,
+               "name" : "�Զ�ȡ���",
+               "values" : "101401"
+            },
+            {
+               "iconname" : "101402.png",
+               "iconsize" : 32.0,
+               "name" : "�Զ��ۻ���",
+               "values" : "101402"
+            },
+            {
+               "iconname" : "101403.png",
+               "iconsize" : 32.0,
+               "name" : "�տ�̨",
+               "values" : "101403"
+            },
+            {
+               "iconname" : "101404.png",
+               "iconsize" : 32.0,
+               "name" : "�ɷ��ն�",
+               "values" : "101404"
+            },
+            {
+               "iconname" : "101405.png",
+               "iconsize" : 32.0,
+               "name" : "���Ҷһ���",
+               "values" : "101405"
+            },
+            {
+               "iconname" : "101501.png",
+               "iconsize" : 32.0,
+               "name" : "�������",
+               "values" : "101501"
+            },
+            {
+               "iconname" : "101502.png",
+               "iconsize" : 32.0,
+               "name" : "�绰",
+               "values" : "101502"
+            },
+            {
+               "iconname" : "101601.png",
+               "iconsize" : 32.0,
+               "name" : "������",
+               "values" : "101601"
+            },
+            {
+               "iconname" : "101602.png",
+               "iconsize" : 32.0,
+               "name" : "����˨",
+               "values" : "101602"
+            },
+            {
+               "iconname" : "101603.png",
+               "iconsize" : 32.0,
+               "name" : "�����",
+               "values" : "101603"
+            },
+            {
+               "iconname" : "101701.png",
+               "iconsize" : 32.0,
+               "name" : "��ӡ��",
+               "values" : "101701"
+            },
+            {
+               "iconname" : "101702.png",
+               "iconsize" : 32.0,
+               "name" : "�����",
+               "values" : "101702"
+            },
+            {
+               "iconname" : "101703.png",
+               "iconsize" : 32.0,
+               "name" : "��ˮ��",
+               "values" : "101703"
+            },
+            {
+               "iconname" : "101704.png",
+               "iconsize" : 32.0,
+               "name" : "�и�����",
+               "values" : "101704"
+            },
+            {
+               "iconname" : "101705.png",
+               "iconsize" : 32.0,
+               "name" : "�����",
+               "values" : "101705"
+            },
+            {
+               "iconname" : "101706.png",
+               "iconsize" : 32.0,
+               "name" : "��Ӥ��",
+               "values" : "101706"
+            },
+            {
+               "iconname" : "101707.png",
+               "iconsize" : 32.0,
+               "name" : "Ů������",
+               "values" : "101707"
+            },
+            {
+               "iconname" : "101803.png",
+               "iconsize" : 32.0,
+               "name" : "�����",
+               "values" : "101803"
+            },
+            {
+               "iconname" : "101804.png",
+               "iconsize" : 32.0,
+               "name" : "�߷����",
+               "values" : "101804"
+            },
+            {
+               "iconname" : "101805.png",
+               "iconsize" : 32.0,
+               "name" : "��Ʊբ�����",
+               "values" : "101805"
+            },
+            {
+               "iconname" : "101806.png",
+               "iconsize" : 32.0,
+               "name" : "�˹���Ʊ",
+               "values" : "101806"
+            },
+            {
+               "iconname" : "101807.png",
+               "iconsize" : 32.0,
+               "name" : "�Զ���Ʊ",
+               "values" : "101807"
+            },
+            {
+               "iconname" : "101808.png",
+               "iconsize" : 32.0,
+               "name" : "����������ȡ",
+               "values" : "101808"
+            },
+            {
+               "iconname" : "101809.png",
+               "iconsize" : 32.0,
+               "name" : "����",
+               "values" : "101809"
+            },
+            {
+               "iconname" : "101810.png",
+               "iconsize" : 32.0,
+               "name" : "�����ѯ",
+               "values" : "101810"
+            },
+            {
+               "iconname" : "101811.png",
+               "iconsize" : 32.0,
+               "name" : "������ȡ",
+               "values" : "101811"
+            },
+            {
+               "iconname" : "101812.png",
+               "iconsize" : 32.0,
+               "name" : "��Ʊբ������",
+               "values" : "101812"
+            },
+            {
+               "iconname" : "101813.png",
+               "iconsize" : 32.0,
+               "name" : "�������",
+               "values" : "101813"
+            },
+            {
+               "iconname" : "101814.png",
+               "iconsize" : 32.0,
+               "name" : "��ת����",
+               "values" : "101814"
+            },
+            {
+               "iconname" : "9980.png",
+               "iconsize" : 32.0,
+               "name" : "ĸӤ��",
+               "values" : "9980"
+            }
+         ]
+      },
+      {
+         "field" : "SPACE_TYPE",
+         "filltext" : 0,
+         "height" : 0,
+         "maxscale" : 4000,
+         "minscale" : 0,
+         "name" : "SPACE_FACE",
+         "newline" : 32,
+         "render" : 1,
+         "shadow" : 1,
+         "shadowx" : 6.50,
+         "shadowy" : 6.50,
+         "showtype" : 3,
+         "style" : [
+            {
+               "color" : "255,249,241,255",
+               "linecolor" : "170,170,168,255",
+               "linewidth" : 0.50,
+               "name" : "餐饮水吧,休闲娱乐,服饰鞋帽,化妆品,家居家装,数码电器,亲子,珠宝首饰,生活服务",
+               "textfield" : "SPACE_NAME",
+               "texttype" : "like",
+               "textvalues" : "200100,200200,200300,200400,200500,200600,200700,200800,200900",
+               "values" : "200100,200200,200300,200400,200500,200600,200700,200800,200900"
+            },
+            {
+               "color" : "225,226,227,255",
+               "linecolor" : "170,170,168,255",
+               "linewidth" : 0.50,
+               "name" : "禁止区,未知商铺,其它",
+               "textfield" : "SPACE_NAME",
+               "texttype" : "like",
+               "textvalues" : "9990,999998,999999",
+               "values" : "9990,999998,999999"
+            }
+         ]
+      },
+      {
+         "field" : "",
+         "height" : 0,
+         "maxscale" : 4000,
+         "minscale" : 0,
+         "name" : "FLOOR",
+         "render" : 1,
+         "shadow" : 1,
+         "shadowx" : 6.50,
+         "shadowy" : 6.50,
+         "showtype" : 3,
+         "style" : [
+            {
+               "color" : "255,255,255,255",
+               "linecolor" : "248,248,246,255",
+               "linewidth" : 0.50,
+               "textfield" : "",
+               "texttype" : "",
+               "values" : ""
+            }
+         ]
+      }
+   ]
+}

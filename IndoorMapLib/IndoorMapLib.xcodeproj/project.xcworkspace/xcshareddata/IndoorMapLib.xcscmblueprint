@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0604782e-786e-fe43-bde5-22dd60ca1e96++1401",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "0604782e-786e-fe43-bde5-22dd60ca1e96++1401" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0604782e-786e-fe43-bde5-22dd60ca1e96++1401" : 0,
+    "d4361207-9450-4546-81ae-98c8f7dbb11d" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "16767CEB-CDBA-483B-8D54-0A41C79C7C06",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0604782e-786e-fe43-bde5-22dd60ca1e96++1401" : "IndoorMap_baiLian\/",
+    "d4361207-9450-4546-81ae-98c8f7dbb11d" : "IndoorMapDemo"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "IndoorMapLib",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "IndoorMapLib\/IndoorMapLib.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.0.71\/svn\/AEC",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0604782e-786e-fe43-bde5-22dd60ca1e96++1401"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/127.0.0.1\/IndoorMapDemo",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "d4361207-9450-4546-81ae-98c8f7dbb11d"
+    }
+  ]
+}

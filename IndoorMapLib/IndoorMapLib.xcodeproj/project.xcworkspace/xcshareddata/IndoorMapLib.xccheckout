@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>16767CEB-CDBA-483B-8D54-0A41C79C7C06</string>
+	<key>IDESourceControlProjectName</key>
+	<string>IndoorMapLib</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>d4361207-9450-4546-81ae-98c8f7dbb11d</key>
+		<string>svn://127.0.0.1/IndoorMapDemo</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>IndoorMapLib/IndoorMapLib.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>d4361207-9450-4546-81ae-98c8f7dbb11d</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>d4361207-9450-4546-81ae-98c8f7dbb11d</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>d4361207-9450-4546-81ae-98c8f7dbb11d</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IndoorMapDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

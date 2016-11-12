@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		401200691C22471100421FBC /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 401200671C22471100421FBC /* ioapi.c */; };
+		4012006A1C22471100421FBC /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 401200681C22471100421FBC /* mztools.c */; };
+		4012006D1C2285F100421FBC /* NavCommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4012006C1C2285F100421FBC /* NavCommonUtil.m */; };
+		4012006E1C2289D400421FBC /* NavCommonUtil.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4012006B1C2285F100421FBC /* NavCommonUtil.h */; };
+		402C84591BF7946300EB7C67 /* NavShopBottomPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 402C84581BF7946300EB7C67 /* NavShopBottomPopView.m */; };
+		40352CA51B3257920008D273 /* NavFloorBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 40352CA41B3257920008D273 /* NavFloorBtn.m */; };
+		404990471C02EA7B00BD4624 /* LocationUtil.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 409D0A9B1BABD61200C7A6B4 /* LocationUtil.h */; };
+		404990481C02EA7B00BD4624 /* NavIndoorMapViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 409D0A9D1BABD61200C7A6B4 /* NavIndoorMapViewController.h */; };
+		406F35241BF4E514006E7B80 /* NavigationBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 406F35231BF4E514006E7B80 /* NavigationBarView.m */; };
+		409786471B1C4E5200F86C70 /* RouteButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 409786461B1C4E5200F86C70 /* RouteButton.m */; };
+		4097864A1B1C5F2B00F86C70 /* FloorTopButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 409786491B1C5F2B00F86C70 /* FloorTopButton.m */; };
+		409D0AC01BABD61200C7A6B4 /* NavUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 409D0A801BABD61200C7A6B4 /* NavUtils.m */; };
+		409D0ACB1BABD61200C7A6B4 /* LocationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 409D0A9C1BABD61200C7A6B4 /* LocationUtil.m */; };
+		409D0ACC1BABD61200C7A6B4 /* NavIndoorMapViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 409D0A9E1BABD61200C7A6B4 /* NavIndoorMapViewController.mm */; };
+		409D0ACE1BABD61200C7A6B4 /* Api.m in Sources */ = {isa = PBXBuildFile; fileRef = 409D0AA31BABD61200C7A6B4 /* Api.m */; };
+		409D0ACF1BABD61200C7A6B4 /* FileDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 409D0AA51BABD61200C7A6B4 /* FileDownloader.m */; };
+		409D0AD41BABD61200C7A6B4 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 409D0AB31BABD61200C7A6B4 /* unzip.c */; };
+		409D0AD51BABD61200C7A6B4 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 409D0AB51BABD61200C7A6B4 /* zip.c */; };
+		409D0AD61BABD61200C7A6B4 /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = 409D0AB81BABD61200C7A6B4 /* ZipArchive.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		40A7050A1B1B5C0A008D2C4A /* CateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A7046C1B1B5C0A008D2C4A /* CateView.m */; };
+		40A7052F1B1B5C0A008D2C4A /* ShopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A704C91B1B5C0A008D2C4A /* ShopModel.m */; };
+		40A705471B1B5C0A008D2C4A /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A705061B1B5C0A008D2C4A /* UIView+Frame.m */; };
+		40A705481B1B5C0A008D2C4A /* UIViewController+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A705081B1B5C0A008D2C4A /* UIViewController+Base.m */; };
+		40ACACCD1B12D4B200925E92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40ACACCC1B12D4B200925E92 /* UIKit.framework */; };
+		40ACACD01B12D4CC00925E92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40ACACCF1B12D4CC00925E92 /* Foundation.framework */; };
+		40CEFB241BF77F09007565FD /* NavFloorBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CEFB231BF77F09007565FD /* NavFloorBarView.m */; };
+		40F460271DB893C500A89280 /* libNIMapSDKLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F460261DB893C500A89280 /* libNIMapSDKLib.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		40ACAB8E1B12C7F100925E92 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				4012006E1C2289D400421FBC /* NavCommonUtil.h in CopyFiles */,
+				404990471C02EA7B00BD4624 /* LocationUtil.h in CopyFiles */,
+				404990481C02EA7B00BD4624 /* NavIndoorMapViewController.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		401200671C22471100421FBC /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		401200681C22471100421FBC /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		4012006B1C2285F100421FBC /* NavCommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavCommonUtil.h; sourceTree = "<group>"; };
+		4012006C1C2285F100421FBC /* NavCommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavCommonUtil.m; sourceTree = "<group>"; };
+		402C84571BF7946300EB7C67 /* NavShopBottomPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavShopBottomPopView.h; sourceTree = "<group>"; };
+		402C84581BF7946300EB7C67 /* NavShopBottomPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavShopBottomPopView.m; sourceTree = "<group>"; };
+		40352CA31B3257920008D273 /* NavFloorBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavFloorBtn.h; sourceTree = "<group>"; };
+		40352CA41B3257920008D273 /* NavFloorBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavFloorBtn.m; sourceTree = "<group>"; };
+		406F35221BF4E514006E7B80 /* NavigationBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBarView.h; sourceTree = "<group>"; };
+		406F35231BF4E514006E7B80 /* NavigationBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBarView.m; sourceTree = "<group>"; };
+		409786451B1C4E5200F86C70 /* RouteButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteButton.h; sourceTree = "<group>"; };
+		409786461B1C4E5200F86C70 /* RouteButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteButton.m; sourceTree = "<group>"; };
+		409786481B1C5F2B00F86C70 /* FloorTopButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloorTopButton.h; sourceTree = "<group>"; };
+		409786491B1C5F2B00F86C70 /* FloorTopButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloorTopButton.m; sourceTree = "<group>"; };
+		409D0A7A1BABD61200C7A6B4 /* NavConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavConstants.h; sourceTree = "<group>"; };
+		409D0A7F1BABD61200C7A6B4 /* NavUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavUtils.h; sourceTree = "<group>"; };
+		409D0A801BABD61200C7A6B4 /* NavUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavUtils.m; sourceTree = "<group>"; };
+		409D0A9B1BABD61200C7A6B4 /* LocationUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationUtil.h; sourceTree = "<group>"; };
+		409D0A9C1BABD61200C7A6B4 /* LocationUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationUtil.m; sourceTree = "<group>"; };
+		409D0A9D1BABD61200C7A6B4 /* NavIndoorMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavIndoorMapViewController.h; sourceTree = "<group>"; };
+		409D0A9E1BABD61200C7A6B4 /* NavIndoorMapViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NavIndoorMapViewController.mm; sourceTree = "<group>"; };
+		409D0AA21BABD61200C7A6B4 /* Api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Api.h; sourceTree = "<group>"; };
+		409D0AA31BABD61200C7A6B4 /* Api.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Api.m; sourceTree = "<group>"; };
+		409D0AA41BABD61200C7A6B4 /* FileDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileDownloader.h; sourceTree = "<group>"; };
+		409D0AA51BABD61200C7A6B4 /* FileDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileDownloader.m; sourceTree = "<group>"; };
+		409D0AAE1BABD61200C7A6B4 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		409D0AB31BABD61200C7A6B4 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		409D0AB41BABD61200C7A6B4 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		409D0AB51BABD61200C7A6B4 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		409D0AB61BABD61200C7A6B4 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		409D0AB71BABD61200C7A6B4 /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		409D0AB81BABD61200C7A6B4 /* ZipArchive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZipArchive.mm; sourceTree = "<group>"; };
+		409D0ADA1BABD8DB00C7A6B4 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		409D0ADB1BABD8DB00C7A6B4 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		40A7046B1B1B5C0A008D2C4A /* CateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CateView.h; sourceTree = "<group>"; };
+		40A7046C1B1B5C0A008D2C4A /* CateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CateView.m; sourceTree = "<group>"; };
+		40A704C81B1B5C0A008D2C4A /* ShopModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopModel.h; sourceTree = "<group>"; };
+		40A704C91B1B5C0A008D2C4A /* ShopModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopModel.m; sourceTree = "<group>"; };
+		40A705051B1B5C0A008D2C4A /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		40A705061B1B5C0A008D2C4A /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		40A705071B1B5C0A008D2C4A /* UIViewController+Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Base.h"; sourceTree = "<group>"; };
+		40A705081B1B5C0A008D2C4A /* UIViewController+Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Base.m"; sourceTree = "<group>"; };
+		40A7054B1B1B5E14008D2C4A /* GlobalMan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalMan.h; sourceTree = "<group>"; };
+		40A7054E1B1B5E14008D2C4A /* SWGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWGeometry.h; sourceTree = "<group>"; };
+		40A7054F1B1B5E14008D2C4A /* SWMapKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWMapKit.h; sourceTree = "<group>"; };
+		40ACAB901B12C7F100925E92 /* libIndoorMapLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIndoorMapLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		40ACACCC1B12D4B200925E92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		40ACACCF1B12D4CC00925E92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		40CEFB221BF77F09007565FD /* NavFloorBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavFloorBarView.h; sourceTree = "<group>"; };
+		40CEFB231BF77F09007565FD /* NavFloorBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavFloorBarView.m; sourceTree = "<group>"; };
+		40F460261DB893C500A89280 /* libNIMapSDKLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libNIMapSDKLib.a; path = lib/libNIMapSDKLib.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40ACAB8D1B12C7F100925E92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F460271DB893C500A89280 /* libNIMapSDKLib.a in Frameworks */,
+				40ACACD01B12D4CC00925E92 /* Foundation.framework in Frameworks */,
+				40ACACCD1B12D4B200925E92 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40409AE71BFDBC8600989D43 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				40F460261DB893C500A89280 /* libNIMapSDKLib.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		409D0A701BABD61200C7A6B4 /* IndoorMapLib */ = {
+			isa = PBXGroup;
+			children = (
+				409D0A711BABD61200C7A6B4 /* Common */,
+				409D0A921BABD61200C7A6B4 /* LBS */,
+				409D0A9D1BABD61200C7A6B4 /* NavIndoorMapViewController.h */,
+				409D0A9E1BABD61200C7A6B4 /* NavIndoorMapViewController.mm */,
+				409D0AA11BABD61200C7A6B4 /* Net */,
+				409D0AAC1BABD61200C7A6B4 /* ZipArchive */,
+			);
+			path = IndoorMapLib;
+			sourceTree = "<group>";
+		};
+		409D0A711BABD61200C7A6B4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				409D0A7A1BABD61200C7A6B4 /* NavConstants.h */,
+				409D0A7F1BABD61200C7A6B4 /* NavUtils.h */,
+				409D0A801BABD61200C7A6B4 /* NavUtils.m */,
+				4012006B1C2285F100421FBC /* NavCommonUtil.h */,
+				4012006C1C2285F100421FBC /* NavCommonUtil.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		409D0A921BABD61200C7A6B4 /* LBS */ = {
+			isa = PBXGroup;
+			children = (
+				409D0A9B1BABD61200C7A6B4 /* LocationUtil.h */,
+				409D0A9C1BABD61200C7A6B4 /* LocationUtil.m */,
+			);
+			path = LBS;
+			sourceTree = "<group>";
+		};
+		409D0AA11BABD61200C7A6B4 /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				409D0AA21BABD61200C7A6B4 /* Api.h */,
+				409D0AA31BABD61200C7A6B4 /* Api.m */,
+				409D0AA41BABD61200C7A6B4 /* FileDownloader.h */,
+				409D0AA51BABD61200C7A6B4 /* FileDownloader.m */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		409D0AAC1BABD61200C7A6B4 /* ZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				409D0AAD1BABD61200C7A6B4 /* minizip */,
+				409D0AB71BABD61200C7A6B4 /* ZipArchive.h */,
+				409D0AB81BABD61200C7A6B4 /* ZipArchive.mm */,
+			);
+			path = ZipArchive;
+			sourceTree = "<group>";
+		};
+		409D0AAD1BABD61200C7A6B4 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				409D0AAE1BABD61200C7A6B4 /* crypt.h */,
+				409D0AB31BABD61200C7A6B4 /* unzip.c */,
+				409D0AB41BABD61200C7A6B4 /* unzip.h */,
+				409D0AB51BABD61200C7A6B4 /* zip.c */,
+				409D0AB61BABD61200C7A6B4 /* zip.h */,
+				409D0ADA1BABD8DB00C7A6B4 /* ioapi.h */,
+				409D0ADB1BABD8DB00C7A6B4 /* mztools.h */,
+				401200671C22471100421FBC /* ioapi.c */,
+				401200681C22471100421FBC /* mztools.c */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		40A704681B1B5C0A008D2C4A /* CoustomView */ = {
+			isa = PBXGroup;
+			children = (
+				40A7046B1B1B5C0A008D2C4A /* CateView.h */,
+				40A7046C1B1B5C0A008D2C4A /* CateView.m */,
+				409786451B1C4E5200F86C70 /* RouteButton.h */,
+				409786461B1C4E5200F86C70 /* RouteButton.m */,
+				409786481B1C5F2B00F86C70 /* FloorTopButton.h */,
+				409786491B1C5F2B00F86C70 /* FloorTopButton.m */,
+				40352CA31B3257920008D273 /* NavFloorBtn.h */,
+				40352CA41B3257920008D273 /* NavFloorBtn.m */,
+				40CEFB221BF77F09007565FD /* NavFloorBarView.h */,
+				40CEFB231BF77F09007565FD /* NavFloorBarView.m */,
+				406F35221BF4E514006E7B80 /* NavigationBarView.h */,
+				406F35231BF4E514006E7B80 /* NavigationBarView.m */,
+				402C84571BF7946300EB7C67 /* NavShopBottomPopView.h */,
+				402C84581BF7946300EB7C67 /* NavShopBottomPopView.m */,
+			);
+			path = CoustomView;
+			sourceTree = "<group>";
+		};
+		40A704C51B1B5C0A008D2C4A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				40A704C81B1B5C0A008D2C4A /* ShopModel.h */,
+				40A704C91B1B5C0A008D2C4A /* ShopModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		40A704FF1B1B5C0A008D2C4A /* ZLib */ = {
+			isa = PBXGroup;
+			children = (
+				40A705051B1B5C0A008D2C4A /* UIView+Frame.h */,
+				40A705061B1B5C0A008D2C4A /* UIView+Frame.m */,
+				40A705071B1B5C0A008D2C4A /* UIViewController+Base.h */,
+				40A705081B1B5C0A008D2C4A /* UIViewController+Base.m */,
+			);
+			path = ZLib;
+			sourceTree = "<group>";
+		};
+		40A705491B1B5E14008D2C4A /* MapLib */ = {
+			isa = PBXGroup;
+			children = (
+				40409AE71BFDBC8600989D43 /* lib */,
+				40A7054A1B1B5E14008D2C4A /* include */,
+			);
+			path = MapLib;
+			sourceTree = "<group>";
+		};
+		40A7054A1B1B5E14008D2C4A /* include */ = {
+			isa = PBXGroup;
+			children = (
+				40A7054B1B1B5E14008D2C4A /* GlobalMan.h */,
+				40A7054E1B1B5E14008D2C4A /* SWGeometry.h */,
+				40A7054F1B1B5E14008D2C4A /* SWMapKit.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		40ACAB871B12C7F100925E92 = {
+			isa = PBXGroup;
+			children = (
+				409D0A701BABD61200C7A6B4 /* IndoorMapLib */,
+				40A705491B1B5E14008D2C4A /* MapLib */,
+				40A704681B1B5C0A008D2C4A /* CoustomView */,
+				40A704C51B1B5C0A008D2C4A /* model */,
+				40A704FF1B1B5C0A008D2C4A /* ZLib */,
+				40ACACCE1B12D4B900925E92 /* Frameworks */,
+				40ACAB911B12C7F100925E92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40ACAB911B12C7F100925E92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40ACAB901B12C7F100925E92 /* libIndoorMapLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40ACACCE1B12D4B900925E92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40ACACCF1B12D4CC00925E92 /* Foundation.framework */,
+				40ACACCC1B12D4B200925E92 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40ACAB8F1B12C7F100925E92 /* IndoorMapLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40ACABA41B12C7F200925E92 /* Build configuration list for PBXNativeTarget "IndoorMapLib" */;
+			buildPhases = (
+				40ACAB8C1B12C7F100925E92 /* Sources */,
+				40ACAB8D1B12C7F100925E92 /* Frameworks */,
+				40ACAB8E1B12C7F100925E92 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IndoorMapLib;
+			productName = IndoorMapLib;
+			productReference = 40ACAB901B12C7F100925E92 /* libIndoorMapLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40ACAB881B12C7F100925E92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = nv;
+				TargetAttributes = {
+					40ACAB8F1B12C7F100925E92 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 40ACAB8B1B12C7F100925E92 /* Build configuration list for PBXProject "IndoorMapLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 40ACAB871B12C7F100925E92;
+			productRefGroup = 40ACAB911B12C7F100925E92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40ACAB8F1B12C7F100925E92 /* IndoorMapLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40ACAB8C1B12C7F100925E92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409D0ACF1BABD61200C7A6B4 /* FileDownloader.m in Sources */,
+				409786471B1C4E5200F86C70 /* RouteButton.m in Sources */,
+				40A705471B1B5C0A008D2C4A /* UIView+Frame.m in Sources */,
+				40A7052F1B1B5C0A008D2C4A /* ShopModel.m in Sources */,
+				40352CA51B3257920008D273 /* NavFloorBtn.m in Sources */,
+				409D0ACE1BABD61200C7A6B4 /* Api.m in Sources */,
+				402C84591BF7946300EB7C67 /* NavShopBottomPopView.m in Sources */,
+				409D0AD51BABD61200C7A6B4 /* zip.c in Sources */,
+				4097864A1B1C5F2B00F86C70 /* FloorTopButton.m in Sources */,
+				40CEFB241BF77F09007565FD /* NavFloorBarView.m in Sources */,
+				409D0ACC1BABD61200C7A6B4 /* NavIndoorMapViewController.mm in Sources */,
+				409D0AD61BABD61200C7A6B4 /* ZipArchive.mm in Sources */,
+				4012006D1C2285F100421FBC /* NavCommonUtil.m in Sources */,
+				406F35241BF4E514006E7B80 /* NavigationBarView.m in Sources */,
+				4012006A1C22471100421FBC /* mztools.c in Sources */,
+				40A705481B1B5C0A008D2C4A /* UIViewController+Base.m in Sources */,
+				40A7050A1B1B5C0A008D2C4A /* CateView.m in Sources */,
+				409D0AC01BABD61200C7A6B4 /* NavUtils.m in Sources */,
+				401200691C22471100421FBC /* ioapi.c in Sources */,
+				409D0AD41BABD61200C7A6B4 /* unzip.c in Sources */,
+				409D0ACB1BABD61200C7A6B4 /* LocationUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		40ACABA21B12C7F200925E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		40ACABA31B12C7F200925E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40ACABA51B12C7F200925E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Sunztech Corp.";
+				COMPRESS_PNG_FILES = NO;
+				ENABLE_BITCODE = NO;
+				GCC_INPUT_FILETYPE = automatic;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/IndoorMapLib/ZipArchive/minizip/",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MapLib/lib",
+					"$(PROJECT_DIR)/MapLib/lib/lib",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "cd263fcd-4f50-461c-a67e-31d8a5bb3eeb";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Debug;
+		};
+		40ACABA61B12C7F200925E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Sunztech Corp.";
+				COMPRESS_PNG_FILES = NO;
+				ENABLE_BITCODE = NO;
+				GCC_INPUT_FILETYPE = automatic;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/IndoorMapLib/ZipArchive/minizip/",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MapLib/lib",
+					"$(PROJECT_DIR)/MapLib/lib/lib",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "cd263fcd-4f50-461c-a67e-31d8a5bb3eeb";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40ACAB8B1B12C7F100925E92 /* Build configuration list for PBXProject "IndoorMapLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40ACABA21B12C7F200925E92 /* Debug */,
+				40ACABA31B12C7F200925E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40ACABA41B12C7F200925E92 /* Build configuration list for PBXNativeTarget "IndoorMapLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40ACABA51B12C7F200925E92 /* Debug */,
+				40ACABA61B12C7F200925E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40ACAB881B12C7F100925E92 /* Project object */;
+}
